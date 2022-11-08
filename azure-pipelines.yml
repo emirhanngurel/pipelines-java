@@ -7,9 +7,7 @@ trigger:
 - main
 
 pool:
-  name: Default
-  demands:
-   - agent.name -equals LAPTOP-SVNF6EKS 
+  name: Default 
   
 
 steps:
